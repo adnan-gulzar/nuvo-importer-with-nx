@@ -1,0 +1,8 @@
+{
+  "$schema": "./node_modules/nx/schemas/workspace-schema.json",
+  "version": 2,
+  "projects": {
+    "nuvo-importer-demo": "apps/nuvo-importer-demo",
+    "nuvo-importer-demo-e2e": "apps/nuvo-importer-demo-e2e"
+  }
+}
