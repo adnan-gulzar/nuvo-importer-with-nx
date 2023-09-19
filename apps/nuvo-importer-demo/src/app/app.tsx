@@ -5,7 +5,6 @@ import styles from './app.module.css';
 export function App() {
   return (
     <div>
-      <h1>adnan</h1>
       <NuvoImporter
         licenseKey={'non-commercial'}
         onResults={(res) => {
