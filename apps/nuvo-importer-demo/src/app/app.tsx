@@ -5,44 +5,45 @@ import styles from './app.module.css';
 export function App() {
   return (
     <div>
+      <h1>adnan</h1>
       <NuvoImporter
-        licenseKey={"license-key"}
+        licenseKey={'non-commercial'}
         onResults={(res) => {
-          console.log("result: ", res)
+          console.log('result: ', res);
         }}
         settings={{
           developerMode: true,
-          identifier: "contact_data",
+          identifier: 'contact_data',
           columns: [
             {
-              key: "name",
-              label: "Name",
-              columnType: "string",
+              key: 'name',
+              label: 'Name',
+              columnType: 'string',
               description:
-                "Lorem Ipsum is simply dummy text of the printing and typesetting industry."
+                'Lorem Ipsum is simply dummy text of the printing and typesetting industry.',
             },
             {
-              key: "email",
-              label: "Email",
-              columnType: "string",
+              key: 'email',
+              label: 'Email',
+              columnType: 'string',
               description:
-                "Lorem Ipsum is simply dummy text of the printing and typesetting industry."
+                'Lorem Ipsum is simply dummy text of the printing and typesetting industry.',
             },
             {
-              key: "phone",
-              label: "Phone",
-              columnType: "string",
+              key: 'phone',
+              label: 'Phone',
+              columnType: 'string',
               description:
-                "Lorem Ipsum is simply dummy text of the printing and typesetting industry."
+                'Lorem Ipsum is simply dummy text of the printing and typesetting industry.',
             },
             {
-              key: "date",
-              label: "Date",
-              columnType: "string",
+              key: 'date',
+              label: 'Date',
+              columnType: 'string',
               description:
-                "Lorem Ipsum is simply dummy text of the printing and typesetting industry."
-            }
-          ]
+                'Lorem Ipsum is simply dummy text of the printing and typesetting industry.',
+            },
+          ],
         }}
       >
         Import contacts
